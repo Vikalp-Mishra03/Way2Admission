@@ -1,0 +1,110 @@
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+    .social-media {
+        display: flex;
+        align-items: center;
+        width: 504px;
+        height: 67px;
+        justify-content: center;
+        clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+        position: absolute;
+        top: 0;
+
+        .follow {
+            color: #FFF;
+            font-size: 15px;
+            font-weight: 400;
+        }
+
+        .social-icon {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            // width: 110px;
+            margin-left: 20px;
+
+            svg {
+                width: 19.145px;
+                height: 19.145px;
+            }
+        }
+    }
+
+    .mail {
+        height: 67px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75) inset;
+
+        .call {
+            position: relative;
+            margin-right: 30px;
+
+            .number {
+
+                .span {
+                    color: #F5841F;
+                    font-size: 8px;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+
+                .num {
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 12px;
+                    font-weight: 700;
+
+                }
+            }
+
+            &::after {
+                content: '';
+                width: 1px;
+                height: 42px;
+                background: linear-gradient(91deg, #FFF -25.04%, rgba(255, 255, 255, 0.00) 50.86%);
+                margin-top: 20px;
+                
+
+            }
+        }
+
+        .email {
+
+            .bymail {
+                margin-right: 50px;
+
+                .number {
+
+                    .span {
+                        color: #F5841F;
+                        font-size: 8px;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+
+                    .num {
+                        color: #FFF;
+                        text-align: center;
+                        font-size: 12px;
+                        font-weight: 700;
+
+                    }
+                }
+
+
+            }
+
+        }
+    }
+}
+
+svg{
+    cursor: pointer;
+}

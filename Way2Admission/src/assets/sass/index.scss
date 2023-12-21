@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import './componentDesign/Contact.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.ml-1 {
+    margin-left: 1rem;
+}
+
+.mr-1 {
+    margin-right: 1rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.pt-1 {
+    padding-top: 1rem;
+}
+
+.pb-1 {
+    padding-bottom: 1rem;
+}
+
+.pl-1 {
+    padding-left: 1rem;
+}
+
+.pr-1 {
+    padding-right: 1rem;
+}
+
+.bc-primary {
+    background-color: #1F4282;
+}
+
+.primary {
+    color: #1F4282;
+}
+
+.bc-primary1{
+    background-color: #F5841F;
+}
+
+.primary1{
+    color: #F5841F;
+}
+
+.white{
+    color: #fff;
+}
+.bc-white{
+    background-color: #fff;
+}
+
+.black{
+    color: #000;
+}
+.bc-black{
+    background-color: #000;
+}
+
+.gap-1{
+    gap: 1rem;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
+}
