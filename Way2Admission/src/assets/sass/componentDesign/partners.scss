@@ -1,0 +1,92 @@
+.partners {
+    background-color: #1F4282;
+    margin-top: 2rem;
+    height: 662px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .left-img {
+        position: absolute;
+        left: 0;
+        margin-top: 8px;
+
+        img {
+            width: 530px;
+            height: 672.638px;
+        }
+    }
+
+    .col {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25%;
+
+        .left-col {
+
+            .small-text {
+                color: #F5841F;
+                font-size: 14px;
+                font-weight: 700;
+                margin-bottom: 1rem;
+            }
+
+            .ourPartner {
+                color: #FFF;
+                font-size: 30px;
+                font-weight: 700;
+                margin-bottom: 2rem;
+            }
+
+            .para {
+                width: 336px;
+                color: #FFF;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px;
+            }
+        }
+
+        .right-col {
+
+            .upper-col {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .img1 {
+                    background: rgba(255, 255, 255, 0.80);
+                    backdrop-filter: blur(50px);
+                }
+
+                .img {
+                    img {
+                        padding: 0 15px 0 15px;
+                    }
+                }
+            }
+
+            .lower-col {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .img {
+                    img {
+                        padding: 0 15px 0 15px;
+                    }
+                }
+            }
+
+            .line {
+                width: 2px;
+                height: 125px;
+                // background-color: #fff;
+                background: linear-gradient(90deg, #FFF -8.12%, rgba(255, 255, 255, 0.00) 93.66%);
+            }
+
+
+        }
+    }
+}

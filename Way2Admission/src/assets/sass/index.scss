@@ -3,7 +3,16 @@
 
 @import './componentDesign/Contact.scss';
 @import './componentDesign/Navbar.scss';
-@import './componentDesign//publication.scss';
+@import './componentDesign/publication.scss';
+@import './componentDesign/card.scss';
+@import './componentDesign/about.scss';
+@import './componentDesign/whyChoose.scss';
+@import './componentDesign/topFeature.scss';
+@import './componentDesign/stories.scss';
+@import './componentDesign/whyChooseWay.scss';
+@import './componentDesign/partners.scss';
+@import './componentDesign/Accordion.scss';
+@import './componentDesign/eventAndNews.scss';
 
 * {
     margin: 0;
@@ -58,39 +67,59 @@ body {
     color: #1F4282;
 }
 
-.bc-primary1{
+.bc-primary1 {
     background-color: #F5841F;
 }
 
-.primary1{
+.primary1 {
     color: #F5841F;
 }
 
-.white{
+.white {
     color: #fff;
 }
-.bc-white{
+
+.bc-white {
     background-color: #fff;
 }
 
-.black{
+.black {
     color: #000;
 }
-.bc-black{
+
+.bc-black {
     background-color: #000;
 }
 
-.gap-1{
+.gap-1 {
     gap: 1rem;
 }
 
-.flex-center{
+.flex-center {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1rem;
 }
 
-.font-roboto{
+.font-roboto {
     font-family: 'Roboto', sans-serif;
+}
+
+
+.heading {
+    color: #1F4282;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 103px;
+        height: 3px;
+        background: #F5841F;
+        top: 50px;
+        right: 47%;
+    }
 }
