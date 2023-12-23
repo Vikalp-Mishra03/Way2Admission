@@ -13,6 +13,8 @@
 @import './componentDesign/partners.scss';
 @import './componentDesign/Accordion.scss';
 @import './componentDesign/eventAndNews.scss';
+@import './componentDesign/footer.scss';
+@import './componentDesign/video.scss';
 
 * {
     margin: 0;
@@ -120,6 +122,13 @@ body {
         height: 3px;
         background: #F5841F;
         top: 50px;
-        right: 47%;
+        right: 40%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 28px;
     }
 }

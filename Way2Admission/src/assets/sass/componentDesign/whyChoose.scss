@@ -146,3 +146,391 @@
     }
 
 }
+
+@media (max-width: 480px) {
+    .whyChoose {
+        margin-top: 20px;
+
+        .bc-img {
+
+            img {
+                height: 245vh;
+                width: 100%;
+             
+                z-index: -1;
+            }
+
+            .inner {
+                padding-top: 80px;
+
+                h3 {
+                    font-size: 30px;
+                }
+
+                h1 {
+                    color: #FFF;
+                    font-family: Inter;
+                    font-size: 40px;
+                }
+
+                .serviceCard {
+
+                    flex-direction: column;
+
+                    .card {
+                        width: 375px;
+                        height: 395px;                    
+                        border-radius: 15px;
+                        border: 2px solid #F5841F;
+                        background: #FFF;
+
+                        z-index: -1;
+                        margin-top: 5%;
+
+
+                        .img {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-top: 30px;
+
+                            img {
+
+                                width: 128px;
+                                height: 128px;
+                            }
+                        }
+
+                        .a {
+                            margin-top: 40px;
+
+                            h4 {
+                                color: #1F4282;
+                                font-size: 20px;
+                                font-weight: 700;
+                            }
+
+                            p {
+                               
+                                font-size: 17px;
+                          
+                            }
+                        }
+                    }
+
+                    .border {
+                        width: 376px;
+                        height: 405px;
+                        border-radius: 15px;
+                        border-bottom: 3px solid #F5841F;
+                        position: absolute;
+                        margin-right: -30px;
+                        margin-top: 50px;
+                        z-index: -1;
+                    }
+                }
+
+                .bottom-card {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 40px;
+                    margin-top: 100px;
+                    flex-direction: column;
+                    padding: 20px;
+
+                    .card-1 {
+                        width: 100%;
+                        height: 215.596px;
+                        border-radius: 15px;
+                        border: 1px solid #F5841F;
+                        background: #FFF;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 15px;
+
+                        .img {
+
+                            img {
+                                width: 101.265px;
+                                height: 101.265px;
+                            }
+                        }
+
+                        .number {
+
+                            .num {
+                                color: #F5841F;
+                                float: left;
+                                margin-bottom: 10px;
+                                font-size: 39px;
+                                font-weight: 700;
+                                line-height: 24px;
+                            }
+
+                            .enroll {
+                                color: #1F4282;
+                                font-size: 22px;
+                                font-weight: 700;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .whyChoose {
+        margin-top: 20px;
+
+        .bc-img {
+
+            img {
+                height: 245vh;
+                width: 100%;
+                // position: absolute;
+                z-index: -1;
+            }
+
+            .inner {
+                padding-top: 80px;
+
+                h3 {
+                    font-size: 30px;
+                }
+
+                h1 {
+                    color: #FFF;
+                    font-family: Inter;
+                    font-size: 40px;
+                }
+
+                .serviceCard {
+
+                    flex-direction: column;
+
+                    .card {
+                        width: 396px;
+                        height: 412px;
+                        border-radius: 15px;
+                        border: 2px solid #F5841F;
+                        background: #FFF;
+
+                        z-index: -1;
+                        margin-top: 5%;
+
+
+                        .img {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-top: 30px;
+
+                            img {
+
+                                width: 128px;
+                                height: 128px;
+                            }
+                        }
+
+                        .a {
+                            margin-top: 40px;
+
+                            h4 {
+                                color: #1F4282;
+                                font-size: 20px;
+                                font-weight: 700;
+                            }
+
+                            p {
+                                width: 335px;
+                                margin: auto;
+                                color: #1F4282;
+                                text-align: center;
+                                font-size: 20px;
+                                font-weight: 400;
+                                line-height: 30px;
+                            }
+                        }
+                    }
+
+                    .border {
+                        width: 376px;
+                        height: 405px;
+                        border-radius: 15px;
+                        border-bottom: 3px solid #F5841F;
+                        position: absolute;
+                        margin-right: -45px;
+                        margin-top: 115px;
+                        z-index: -1;
+                        border-right: 3px solid #F5841F;
+                    }
+                }
+
+                .bottom-card {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 40px;
+                    margin-top: 100px;
+                    flex-direction: column;
+                    padding: 20px;
+
+                    .card-1 {
+                        width: 100%;
+                        height: 215.596px;
+                        border-radius: 15px;
+                        border: 1px solid #F5841F;
+                        background: #FFF;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 15px;
+
+                        .img {
+
+                            img {
+                                width: 101.265px;
+                                height: 101.265px;
+                            }
+                        }
+
+                        .number {
+
+                            .num {
+                                color: #F5841F;
+                                float: left;
+                                margin-bottom: 10px;
+                                font-size: 39px;
+                                font-weight: 700;
+                                line-height: 24px;
+                            }
+
+                            .enroll {
+                                color: #1F4282;
+                                font-size: 22px;
+                                font-weight: 700;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1050px) {
+    .whyChoose {
+        margin-top: 20px;
+
+        .bc-img {
+
+            img {
+                height: 245vh;
+                width: 100%;
+                // position: absolute;
+                z-index: -1;
+            }
+
+            .inner {
+                padding-top: 80px;
+
+                h3 {
+                    font-size: 30px;
+                }
+
+                h1 {
+                    color: #FFF;
+                    font-family: Inter;
+                    font-size: 40px;
+                }
+
+                .serviceCard {
+
+                    flex-direction: column;
+
+                    .card {
+                        width: 396px;
+                        height: 412px;
+                        border-radius: 15px;
+                        border: 2px solid #F5841F;
+                        background: #FFF;
+
+                        z-index: -1;
+                        margin-top: 5%;
+
+
+                        .img {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-top: 30px;
+
+                            img {
+
+                                width: 128px;
+                                height: 128px;
+                            }
+                        }
+
+                        .a {
+                            margin-top: 40px;
+
+                            h4 {
+                                color: #1F4282;
+                                font-size: 20px;
+                                font-weight: 700;
+                            }
+
+                            p {
+                                width: 335px;
+                                margin: auto;
+                                color: #1F4282;
+                                text-align: center;
+                                font-size: 20px;
+                                font-weight: 400;
+                                line-height: 30px;
+                            }
+                        }
+                    }
+
+                    .border {
+                        width: 376px;
+                        height: 405px;
+                        border-radius: 15px;
+                        border-bottom: 3px solid #F5841F;
+                        position: absolute;
+                        margin-right: -45px;
+                        margin-top: 115px;
+                        z-index: -1;
+                        border-right: 3px solid #F5841F;
+                    }
+                }
+
+                .bottom-card {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 40px;
+                    margin-top: 100px;
+                    flex-direction: column;
+                    padding: 20px;
+
+                  
+                }
+            }
+        }
+
+    }
+}

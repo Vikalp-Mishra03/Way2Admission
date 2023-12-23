@@ -16,7 +16,7 @@
     .circle {
         position: absolute;
         z-index: -1;
-margin-top: 44px;
+        margin-top: 44px;
     }
 
     .event-card {
@@ -104,3 +104,29 @@ margin-top: 44px;
         }
     }
 }
+
+
+
+@media (max-width: 480px) {
+    .eventAndNews {
+    
+        .event-card {
+           
+            .event {
+             
+    
+                .img {
+                    img {
+                        width: 360px;
+                        height: 215px;
+                    
+                    }
+                }
+            }
+        }
+    }
+    
+    
+
+}
+

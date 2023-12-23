@@ -79,3 +79,157 @@
     }
 
 }
+
+
+@media (max-width: 480px) {
+    .stories {
+        background: #1F4282;
+        display: flex;
+        align-items: center;
+        height: 830px;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 2rem;
+        flex-direction: column;
+
+        .left-story {
+
+            .trusted {
+                color: #F5841F;
+                font-size: 14px;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+
+            .story-title {
+                color: #FFF;
+                font-size: 30px;
+                font-weight: 700;
+                width: 299px;
+            }
+
+            .para {
+                color: #FFF;
+                width: 336px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px;
+            }
+        }
+
+        .right-story {
+
+
+            .video-wrap {
+
+                .video {
+                    width: 300px;
+                    display: flex;
+                    overflow-x: scroll;
+                    grid-gap: 205%;
+
+                    .vide {
+                        width: 100%;
+                        display: grid;
+                        grid-template-columns: auto auto auto;
+                        grid-gap: 20px;
+                        padding: 10px;
+                        flex: none;
+                        align-items: center;
+
+                        .video-thumbnail {
+
+                            iframe {
+                                width: 285px;
+                                height: 500px;
+                                border-radius: 15px;
+                                border: none;
+                                transition: all 0.5s;
+
+                                &:hover {
+                                    width: 301px;
+                                    border: 3px solid rgba(245, 132, 31, 0.55);
+                                    height: 525px;
+                                }
+
+                            }
+                        }
+                    }
+
+                    &::-webkit-scrollbar {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+    }
+
+
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .stories {
+        background: #1F4282;
+        display: flex;
+        align-items: center;
+        height: 830px;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 2rem;
+        flex-direction: column;
+
+
+        .right-story {
+
+
+            .video-wrap {
+
+                .video {
+                    width: 400px;
+                    display: flex;
+                    overflow-x: scroll;
+                    grid-gap: 130%;
+
+                    
+                   
+                }
+            }
+        }
+
+    }
+
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1050px) {
+    .stories {
+        background: #1F4282;
+        display: flex;
+        align-items: center;
+        height: 830px;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 2rem;
+        flex-direction: column;
+
+
+        .right-story {
+
+
+            .video-wrap {
+
+                .video {
+                    width: 400px;
+                    display: flex;
+                    overflow-x: scroll;
+                    grid-gap: 130%;
+                }
+            }
+        }
+
+    }
+
+}

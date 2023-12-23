@@ -24,7 +24,6 @@
             display: flex;
             align-items: center;
             justify-content: space-around;
-            // width: 110px;
             margin-left: 20px;
 
             svg {
@@ -107,13 +106,34 @@ svg {
 }
 
 
+@media (max-width: 480px) {
+    .contact {
+        .social-media {
+            width: 525px;
+        }
+    }
+
+
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .contact {
+        .social-media {
+            width: 525px;
+        }
+    }
+
+
+}
+
+
 @media only screen and (max-width: 1024px) {
     .contact {
-
-
-        .social-media{
+        .social-media {
             position: relative;
             clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+            width: 100%;
         }
         .mail {
             display: none;

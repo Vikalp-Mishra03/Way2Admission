@@ -46,3 +46,54 @@
         }
     }
 }
+
+
+@media (max-width: 480px) {
+    .cards {
+        top: 65%;
+        flex-direction: column;
+
+
+        .card {
+            width: 392px;
+            height: 278.562px;
+            padding: 25px;
+    
+            img {
+                margin: auto;
+                width: 66px;
+                height: 66px;
+            }
+    
+            h3 {
+               
+                font-size: 17px;
+                text-align: center;
+                font-weight: 700;
+                padding: 15px 0;
+            }
+    
+            p {
+                margin: auto;
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .cards {
+        top: 85%;
+        flex-direction: column;
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1050px) {
+    .cards {
+        top: 100%;
+       flex-wrap: wrap;
+    }
+
+}

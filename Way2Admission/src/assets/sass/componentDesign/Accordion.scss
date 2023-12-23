@@ -62,3 +62,187 @@
         }
     }
 }
+
+
+@media (max-width: 480px) {
+    .accordion {
+        
+        flex-direction: column;
+        margin-top: 50%;
+
+        .left-accor {
+
+            h1 {
+                font-size: 28px;
+
+                &::before {
+                    margin-top: 45px;
+                    content: '';
+                    background: #F5841F;
+                    width: 103px;
+                    height: 3px;
+                    position: absolute;
+                }
+            }
+
+
+            .accord {
+                margin-top: 2rem;
+
+                .accor-box {
+                    width: 95%;
+
+                    .question {
+                        transition: all 0.5s;
+
+                        h4 {
+                            color: #1F4282;
+                            font-size: 15px;
+                            font-weight: 600;
+                            margin-bottom: 10px;
+                            cursor: pointer;
+                            transition: all 0.5s;
+                        }
+
+                    }
+
+                    .answer {
+                        transition: all 0.5s;
+                        color: #000;
+                        font-size: 13px;
+                        font-weight: 400;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+
+        .right-img{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .accordion {
+        
+        flex-direction: column;
+        margin-top: 50%;
+
+        .left-accor {
+
+            h1 {
+                font-size: 28px;
+
+                &::before {
+                    margin-top: 45px;
+                    content: '';
+                    background: #F5841F;
+                    width: 103px;
+                    height: 3px;
+                    position: absolute;
+                }
+            }
+
+
+            .accord {
+                margin-top: 2rem;
+
+                .accor-box {
+                    width: 95%;
+
+                    .question {
+                        
+                        h4 {
+                            color: #1F4282;
+                            font-size: 15px;
+                            font-weight: 600;
+                            margin-bottom: 10px;
+                            cursor: pointer;
+           
+                        }
+
+                    }
+
+                    .answer {
+                        transition: all 0.5s;
+                        color: #000;
+                        font-size: 13px;
+                        font-weight: 400;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+
+        .right-img{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1050px) {
+    .accordion {
+        
+        flex-direction: column;
+        margin-top: 50%;
+
+        .left-accor {
+
+            h1 {
+                font-size: 28px;
+
+                &::before {
+                    margin-top: 45px;
+                    content: '';
+                    background: #F5841F;
+                    width: 103px;
+                    height: 3px;
+                    position: absolute;
+                }
+            }
+
+
+            .accord {
+                margin-top: 2rem;
+
+                .accor-box {
+                    width: 95%;
+
+                    .question {
+                        
+                        h4 {
+                            color: #1F4282;
+                            font-size: 15px;
+                            font-weight: 600;
+                            margin-bottom: 10px;
+                            cursor: pointer;
+           
+                        }
+
+                    }
+
+                    .answer {
+                        transition: all 0.5s;
+                        color: #000;
+                        font-size: 13px;
+                        font-weight: 400;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+
+        .right-img{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

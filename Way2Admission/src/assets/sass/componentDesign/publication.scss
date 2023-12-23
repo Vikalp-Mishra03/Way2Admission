@@ -4,5 +4,20 @@
     color: #FFF;
     font-size: 15px;
     font-weight: 700;
-    
+
+}
+
+
+@media (max-width: 480px) {
+    .publication {
+        font-size: 10px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .publication {
+        font-size: 13px;
+    }
+
 }
