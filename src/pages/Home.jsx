@@ -22,14 +22,14 @@ export default function Home() {
             <Imagecarousel />
             <Cards />
             <About />
-            {/* <WhyChoose /> */}
-            {/* <TopFeature /> */}
-            {/* <Stories /> */}
-            {/* <WhyChooseWay2 /> */}
-            {/* <Video /> */}
-            {/* <EventAndNews /> */}
-            {/* <Partners /> */}
-            {/* <Accordion /> */}
+            <WhyChoose />
+            <TopFeature />
+            <Stories />
+            <WhyChooseWay2 />
+            <Video />
+            <EventAndNews />
+            <Partners />
+            <Accordion />
         </div>
     )
 }
