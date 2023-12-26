@@ -71,15 +71,36 @@
 
 @media (max-width: 480px) {
     .topFeature {
+        margin-top: 3rem;
+        text-align: center;
+
         p {
             width: 100%;
+            padding: 10px;
         }
 
         .box {
+            padding: 10px;
             flex-direction: column;
+
+
+            .card-2 {
+                width: 100%;
+
+                .img {
+                    img {
+                        width: 100%;
+                    }
+                }
+
+
+                .para {
+                    width: 100%;
+
+                }
+            }
         }
     }
-
 
 }
 

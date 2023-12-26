@@ -129,6 +129,17 @@ body {
 
 @media (max-width: 480px) {
     .heading {
-        font-size: 28px;
+        font-size: 24px;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 103px;
+            height: 3px;
+            background: #F5841F;
+            top: 110%;
+            right: 0;
+            left: 35%;
+        }
     }
 }

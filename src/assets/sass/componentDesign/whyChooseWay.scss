@@ -93,7 +93,7 @@
 
 
         p {
-            width: 304px;
+            width: 100%;
             margin: auto;
             margin-top: 40px;
             color: #000;
@@ -123,23 +123,20 @@
         }
 
         .box {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: 5rem;
-            gap: 30px;
+            padding: 10px;
             flex-direction: column;
 
             .card-2 {
-                width: 414.158px;
-                padding-bottom: 30px;
-                border-radius: 15px;
-                border: 1px solid rgba(31, 66, 130, 0.26);
-                background: rgba(255, 255, 255, 0.64);
-                backdrop-filter: blur(21.5px);
+                width: 100%;
+
+
+                .img {
+                    img {
+                        width: 100%;
+                    }
+                }
 
                 .title {
-                    color: #1F4282;
                     font-size: 15px;
                     font-weight: 700;
                     margin-bottom: 20px;
@@ -147,7 +144,6 @@
                 }
 
                 .para {
-                    color: #000;
                     font-size: 11px;
                     width: 379px;
                     height: 121px;
@@ -181,9 +177,9 @@
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
     .whyChooseWay2 {
-      
 
-       
+
+
         .img-arrow {
             position: absolute;
             margin-top: -180px;
@@ -208,7 +204,7 @@
         .box {
             flex-direction: column;
 
-       
+
         }
     }
 
@@ -217,9 +213,9 @@
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1050px) {
     .whyChooseWay2 {
-        
 
-       
+
+
         .img-arrow {
             position: absolute;
             margin-top: -180px;

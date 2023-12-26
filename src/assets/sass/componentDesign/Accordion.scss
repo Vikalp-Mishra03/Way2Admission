@@ -66,7 +66,7 @@
 
 @media (max-width: 480px) {
     .accordion {
-        
+        gap: 0px;
         flex-direction: column;
         margin-top: 50%;
 
@@ -74,23 +74,26 @@
 
             h1 {
                 font-size: 28px;
+                text-align: center;
 
                 &::before {
-                    margin-top: 45px;
-                    content: '';
+                    margin-top: 20%;
+                    content: "";
                     background: #F5841F;
                     width: 103px;
                     height: 3px;
                     position: absolute;
+                    right: 40%;
                 }
             }
 
 
             .accord {
                 margin-top: 2rem;
+                padding: 10px;
 
                 .accor-box {
-                    width: 95%;
+                    width: 100%;
 
                     .question {
                         transition: all 0.5s;
@@ -117,8 +120,8 @@
             }
         }
 
-        .right-img{
-            img{
+        .right-img {
+            img {
                 width: 100%;
             }
         }
@@ -128,7 +131,7 @@
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
     .accordion {
-        
+
         flex-direction: column;
         margin-top: 50%;
 
@@ -155,14 +158,14 @@
                     width: 95%;
 
                     .question {
-                        
+
                         h4 {
                             color: #1F4282;
                             font-size: 15px;
                             font-weight: 600;
                             margin-bottom: 10px;
                             cursor: pointer;
-           
+
                         }
 
                     }
@@ -178,8 +181,8 @@
             }
         }
 
-        .right-img{
-            img{
+        .right-img {
+            img {
                 width: 100%;
             }
         }
@@ -189,7 +192,7 @@
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1050px) {
     .accordion {
-        
+
         flex-direction: column;
         margin-top: 50%;
 
@@ -216,14 +219,14 @@
                     width: 95%;
 
                     .question {
-                        
+
                         h4 {
                             color: #1F4282;
                             font-size: 15px;
                             font-weight: 600;
                             margin-bottom: 10px;
                             cursor: pointer;
-           
+
                         }
 
                     }
@@ -239,8 +242,8 @@
             }
         }
 
-        .right-img{
-            img{
+        .right-img {
+            img {
                 width: 100%;
             }
         }

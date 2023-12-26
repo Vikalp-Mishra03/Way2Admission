@@ -114,10 +114,7 @@
         }
 
         .col {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 25%;
+            text-align: center;
             flex-direction: column;
 
             .left-col {
@@ -129,42 +126,50 @@
                     margin-bottom: 1rem;
                 }
 
-              
-               
+
+
             }
 
             .right-col {
                 margin-top: 50px;
 
                 .upper-col {
-                   
+                    width: 75%;
+                    margin: auto;
+
                     .img {
                         img {
-                            padding: 0;
-                            width: 100px;
+                            width: 100%;
                         }
                     }
                 }
 
+                hr {
+                    width: 75%;
+                    margin: auto;
+                }
+
                 .lower-col {
+                    width: 75%;
+                    margin: auto;
 
                     .img {
                         img {
-                            padding: 0;
-                            width: 100px;
+                            width: 100%;
                         }
                     }
                 }
 
                 .line {
                     width: 2px;
-                    height: 100px;
+                    height: 5vh;
                     // background-color: #fff;
                     background: linear-gradient(90deg, #FFF -8.12%, rgba(255, 255, 255, 0.00) 93.66%);
                 }
             }
         }
     }
+
 
 }
 
@@ -206,15 +211,15 @@
                     margin-bottom: 1rem;
                 }
 
-              
-               
+
+
             }
 
             .right-col {
                 margin-top: 50px;
 
                 .upper-col {
-                   
+
                     .img {
                         img {
                             padding: 0;
@@ -283,15 +288,15 @@
                     margin-bottom: 1rem;
                 }
 
-              
-               
+
+
             }
 
             .right-col {
                 margin-top: 50px;
 
                 .upper-col {
-                   
+
                     .img {
                         img {
                             padding: 0;

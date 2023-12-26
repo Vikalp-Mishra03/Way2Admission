@@ -148,36 +148,23 @@
                 }
 
                 p {
-                    width: 365px;
+                    width: 100%;
+                    padding: 10px;
                 }
             }
         }
 
         .getInTouch {
-            width: 100%;
-            height: 218px;
-            background-color: #F5841F;
-            border-radius: 30px;
-            margin-left: auto;
-            margin-top: -100px;
-            margin-right: auto;
-            position: absolute;
-            left: 0;
-            right: 0;
+            width: 95%;
+            
 
             .inner-layer {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                height: 218px;
                 gap: 10px;
                 flex-direction: column;
 
                 .small-text {
-                    color: #1F4282;
                     font-size: 20px;
                     font-weight: 700;
-                    line-height: 24px;
                     text-align: center;
                 }
 
@@ -196,11 +183,6 @@
                         .border2 {
                             width: 40px;
                             height: 40px;
-                            background-color: #FFF;
-                            border-radius: 50%;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
                             font-size: 15px;
                             font-weight: 700;
                             line-height: 24px;
