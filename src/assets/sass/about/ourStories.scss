@@ -1,0 +1,151 @@
+.ourStories {
+    width: 100%;
+
+    margin-top: 20px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 85%;
+        margin: auto;
+
+        .about-left {
+            width: 50%;
+
+         
+
+            h1 {
+                font-size: 32px;
+                line-height: 150%;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+
+            .para {
+                font-size: 0.9375rem;
+                line-height: 30px;
+            }
+
+            a {
+                text-decoration: none;
+
+                button {
+                    margin-top: 20px;
+                    background: transparent;
+                    border: 2px solid #F5841F;
+                    color: #F5841F;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 10px 20px;
+                    border-radius: 20px;
+                }
+            }
+        }
+
+        .about-right {
+
+            .boy {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .ourStories {
+        width: 100%;
+
+        margin-top: 20px;
+
+        .container {
+            width: 100%;
+            padding: 10px;
+
+            flex-direction: column;
+
+            .about-left {
+                width: 100%;
+                padding: 10px;
+                text-align: center;
+
+
+                .story {
+                    color: #F5841F;
+                    font-size: 24px;
+                    font-weight: 400;
+                    margin-bottom: 2rem;
+                }
+
+                h1 {
+                    font-size: 32px;
+                    line-height: 150%;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                }
+
+                .para {
+                    font-size: 0.9375rem;
+                    line-height: 30px;
+                }
+
+              
+            }
+        }
+    }
+
+
+
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .ourStories {
+        width: 100%;
+
+        margin-top: 20px;
+
+        .container {
+            width: 100%;
+            padding: 10px;
+
+            flex-direction: column;
+
+            .about-left {
+                width: 100%;
+                padding: 10px;
+                text-align: center;
+
+
+                .story {
+                    color: #F5841F;
+                    font-size: 24px;
+                    font-weight: 400;
+                    margin-bottom: 2rem;
+                }
+
+                h1 {
+                    font-size: 32px;
+                    line-height: 150%;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                }
+
+                .para {
+                    font-size: 0.9375rem;
+                    line-height: 30px;
+                }
+
+              
+            }
+        }
+    }
+
+}
+

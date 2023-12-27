@@ -1,0 +1,182 @@
+.progress {
+    width: 100%;
+    background-color: #1F4282;
+    padding-top: 20px;
+padding-bottom: 20px;
+    .container {
+        width: 77%;
+        margin: auto;
+
+        .progress-cards {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+
+            .progress-card {
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                border: 2px solid #F5841F;
+                border-radius: 20px;
+
+                .number {
+                    font-size: 2rem;
+                    color: #F5841F;
+                    font-weight: 800;
+                    position: relative;
+                    margin-bottom: 10px;
+
+                }
+
+                .title {
+                    color: #fff;
+                    font-size: 20px;
+                    line-height: 150%;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                }
+
+                .para {
+                    color: #fff;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 480px) {
+    .progress {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+
+        .container {
+            width: 77%;
+            margin: auto;
+
+            .progress-cards {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+                gap: 20px;
+
+                .progress-card {
+                    padding: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    border: 2px solid #F5841F;
+                    border-radius: 20px;
+
+                    .number {
+                        font-size: 2rem;
+                        // color: #1F4282;
+                        font-weight: 800;
+                        position: relative;
+                        margin-bottom: 10px;
+
+                    }
+
+                    .title {
+
+                        font-size: 20px;
+                        line-height: 150%;
+                        font-weight: 600;
+                        margin-bottom: 10px;
+                    }
+
+                    .para {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .progress {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+
+        .container {
+            width: 77%;
+            margin: auto;
+
+            .progress-cards {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+                gap: 20px;
+
+                .progress-card {
+                    padding: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    border: 2px solid #F5841F;
+                    border-radius: 20px;
+
+                    .number {
+                        font-size: 2rem;
+                        // color: #1F4282;
+                        font-weight: 800;
+                        position: relative;
+                        margin-bottom: 10px;
+
+                    }
+
+                    .title {
+
+                        font-size: 20px;
+                        line-height: 150%;
+                        font-weight: 600;
+                        margin-bottom: 10px;
+                    }
+
+                    .para {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1050px) {
+    .progress {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+
+        .container {
+            width: 77%;
+            margin: auto;
+
+            .progress-cards {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+                gap: 20px;
+
+               
+            }
+        }
+    }
+}

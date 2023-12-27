@@ -1,0 +1,159 @@
+.knowMore {
+    width: 100%;
+    // margin-top: 20px;
+    background-color: #1F4282;
+    padding: 20px;
+
+    .container {
+        width: 77%;
+        margin: auto;
+
+        .more-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+
+            .card {
+                background: #fff;
+                border-radius: 8px;
+                padding: 12px;
+                width: 350px;
+
+
+                .img {
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .title {
+                    text-align: center;
+                    color: #002541;
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 140%;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .knowMore {
+        width: 100%;
+        margin-top: 20px;
+        background-color: #1F4282;
+        padding: 20px;
+
+        .container {
+            width: 100%;
+
+            margin: auto;
+
+            .more-card {
+                flex-direction: column;
+                padding: 10px;
+
+                .card {
+                    width: 325px;
+
+
+                    .img {
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .title {
+                        text-align: center;
+                        color: #002541;
+                        font-size: 24px;
+                        font-weight: 500;
+                        line-height: 140%;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .knowMore {
+        width: 100%;
+        text-align: center;
+
+        .container {
+            width: 100%;
+
+            margin: auto;
+
+            .more-card {
+                flex-direction: column;
+                padding: 10px;
+
+                .card {
+                    width: 325px;
+
+
+                    .img {
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .title {
+                        text-align: center;
+                        color: #002541;
+                        font-size: 24px;
+                        font-weight: 500;
+                        line-height: 140%;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1050px) {
+    .knowMore {
+        width: 100%;
+        text-align: center;
+
+        .container {
+            width: 100%;
+
+            margin: auto;
+
+            .more-card {
+                flex-direction: column;
+                padding: 10px;
+
+                .card {
+                    width: 350px;
+
+
+                    .img {
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .title {
+                        text-align: center;
+                        color: #002541;
+                        font-size: 24px;
+                        font-weight: 500;
+                        line-height: 140%;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
