@@ -1,0 +1,109 @@
+.updates {
+    width: 100%;
+    margin-top: -5px;
+    background: #F5841F;
+
+    .small-box {
+        display: flex;
+        align-items: center;
+        width: 55%;
+        justify-content: space-between;
+
+        .update {
+            font-size: 0.9375rem;
+            font-weight: 400;
+            border-radius: 0rem 1.6875rem 0rem 0rem;
+            background: #1F4282;
+            color: #fff;
+            padding: 20px 60px;
+        }
+
+        .published {
+            font-size: 0.9375rem;
+            font-weight: 700;
+            color: #fff;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .updates {
+        width: 100%;
+        margin-top: -5px;
+        background: #F5841F;
+
+        .small-box {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+
+            .update {
+                font-size: 10px;
+                text-align: center;
+                padding: 10px 5px;
+            }
+
+            .published {
+                text-align: center;
+                font-size: 10px;
+            }
+        }
+    }
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .updates {
+        width: 100%;
+        margin-top: -5px;
+        background: #F5841F;
+
+        .small-box {
+            display: flex;
+            align-items: center;
+            width: 90%;
+            justify-content: space-between;
+
+            .update {
+                font-size: 13px;
+                text-align: center;
+                padding: 15px 30px;
+            }
+
+            .published {
+                text-align: center;
+                font-size: 13px;
+            }
+        }
+    }
+
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1050px) {
+    .updates {
+        width: 100%;
+        margin-top: -5px;
+        background: #F5841F;
+
+        .small-box {
+            display: flex;
+            align-items: center;
+            width: 90%;
+            justify-content: space-between;
+
+            .update {
+                font-size: 13px;
+                text-align: center;
+                padding: 15px 30px;
+            }
+
+            .published {
+                text-align: center;
+                font-size: 13px;
+            }
+        }
+    }
+}

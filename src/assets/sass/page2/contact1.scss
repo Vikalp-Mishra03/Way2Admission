@@ -1,0 +1,149 @@
+.contact1 {
+    width: 100%;
+    background: #1F4282;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 120px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 4.2rem;
+
+    .left-contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        .email {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #fff;
+
+            .contact-text {
+                font-size: 0.75rem;
+                font-weight: 400;
+            }
+        }
+
+
+        .phone-no {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #fff;
+
+            .contact-text {
+                font-size: 0.75rem;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .right-contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    .contact1 {
+        width: 100%;
+        padding: 5px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        height: 4.2rem;
+    
+        .left-contact {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+    
+            .email {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: #fff;
+    
+                .contact-text {
+                    font-size: 11px;
+                    font-weight: 400;
+                }
+            }
+    
+    
+            .phone-no {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: #fff;
+    
+                .contact-text {
+                    font-size: 0.75rem;
+                    font-weight: 400;
+                }
+            }
+        }
+    
+        .right-contact {
+           display: none;
+        }
+    
+    }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .contact1 {
+        width: 100%;
+        padding: 5px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        height: 4.2rem;
+    
+        .left-contact {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+    
+            .email {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: #fff;
+    
+                .contact-text {
+                    font-size: 11px;
+                    font-weight: 400;
+                }
+            }
+    
+    
+            .phone-no {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: #fff;
+    
+                .contact-text {
+                    font-size: 0.75rem;
+                    font-weight: 400;
+                }
+            }
+        }
+    
+  
+    
+    }
+}
+

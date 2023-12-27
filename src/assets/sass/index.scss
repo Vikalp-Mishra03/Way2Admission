@@ -15,6 +15,12 @@
 @import './componentDesign/eventAndNews.scss';
 @import './componentDesign/footer.scss';
 @import './componentDesign/video.scss';
+@import './page2/contact1.scss';
+@import './page2/upperBanner.scss';
+@import './page2/updates.scss';
+@import './page2/about1.scss';
+@import './page2/card3.scss';
+@import './page2/admission.scss';
 
 * {
     margin: 0;
@@ -35,6 +41,10 @@ body {
 
 .ml-1 {
     margin-left: 1rem;
+}
+
+.mt-5{
+    margin-top: 5rem;
 }
 
 .mr-1 {
