@@ -12,7 +12,7 @@ export default function UpperBanner() {
                 <div className="banner-text">
                     <h1>Passport To Your Dream College</h1>
                     <span>Lorem Ipsum is dummy text of the printing and typesetting industry, derived from a Latin passage by Cicero. Learn about its history, usage, variations and sources, and how to generate </span>
-<br />
+                    <br />
                     <button>
                         <a href="#">
                             <span>Know More</span>
