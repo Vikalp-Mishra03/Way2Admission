@@ -86,12 +86,6 @@ export default function EventAndNews() {
                         <div className="img">
                             <img src={event.img} alt="" />
                         </div>
-                        {/* <div className="border">
-                            <div className="data">
-                                <div className="date">{event.date}</div>
-                                <div className="month">{event.month}</div>
-                            </div>
-                        </div> */}
                         <div className="title">{event.title}</div>
                         <ReadMore>{event.para}</ReadMore>
                         <div className="link">

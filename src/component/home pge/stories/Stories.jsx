@@ -11,10 +11,6 @@ export default function Stories() {
         scrollContainerRef.current.style.scrollBehavior = 'auto';
     };
 
-
-
-
-
     return (
         <div className='stories'>
             <div className="left-story">
