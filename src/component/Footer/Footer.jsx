@@ -4,6 +4,7 @@ import img2 from '../../assets/images/icons8-kolkata-100 1 (3).png'
 import img3 from '../../assets/images/icons8-kolkata-100 1 (4).png'
 import img4 from '../../assets/images/icons8-kolkata-100 1.png'
 import logo from '../../assets/images/logo.png'
+import { NavLink } from 'react-router-dom'
 export default function Footer() {
 
     const place = [
@@ -67,7 +68,7 @@ export default function Footer() {
                     <div className="col-2">
                         <div className="links">Quick Links</div>
                         <ul>
-                            <li>Mega Menu 1</li>
+                            <li><NavLink to="/contact" className='white'>Contact Us</NavLink></li>
                             <li>Mega Menu 1</li>
                             <li>Mega Menu 1</li>
                             <li>Mega Menu 1</li>
@@ -101,11 +102,13 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div className="col-5">
-                        <div className="links">Resources</div>
+                        <div className="links">Other Links</div>
                         <ul>
-                            <li>Mega Menu 1</li>
-                            <li>Mega Menu 1</li>
-                            <li>Mega Menu 1</li>
+                            <li><NavLink to="/termsAndCondition" className='white'>Terms and Condition</NavLink></li>
+                            <li><NavLink to="/privacyPolicy" className='white'>Privacy Policy</NavLink></li>
+                            <li>
+                            <NavLink to="/responsible" className='white'>Responsible Disclosure Policy</NavLink>
+                            </li>
                             <li>Mega Menu 1</li>
                             <li>Mega Menu 1</li>
                             <li>Mega Menu 1</li>
