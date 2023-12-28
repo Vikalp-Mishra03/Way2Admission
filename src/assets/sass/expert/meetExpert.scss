@@ -1,0 +1,124 @@
+.meetExpert {
+    width: 100%;
+    margin-top: 25px;
+
+    .container {
+        width: 77%;
+        margin: auto;
+
+        .title {
+            font-weight: 600;
+            font-size: 40px;
+            color: #002147;
+            margin-bottom: 16px;
+        }
+
+        span {
+            position: relative;
+
+            &::after {
+                content: "";
+                position: absolute;
+                height: 20px;
+                width: 100%;
+                background: #feca9a;
+
+                left: 0;
+                bottom: 0;
+                opacity: 0.5;
+            }
+        }
+
+        .para {
+            font-size: 1rem;
+            color: #5c7189;
+            margin-bottom: 40px;
+        }
+
+        .expert-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            .expert-container {
+                margin-bottom: 40px;
+                padding-left: 12px;
+                padding-right: 12px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+
+                .img {
+                    max-width: 264px;
+                    width: 100%;
+                    border-radius: 12px;
+                    position: relative;
+
+                    img {
+                        display: block;
+                        width: 100%;
+                    }
+                }
+
+                .fullName {
+                    color: #8594a7;
+                    font-weight: 500;
+                    font-size: 1rem;
+                    margin-top: 10px;
+                    transition: all 0.5;
+
+                    &:hover {
+                        color: #F5841F;
+                    }
+                }
+
+                .number {
+                    color: #002147;
+                    font-weight: 500;
+                    font-size: 1rem;
+                    margin-top: 10px;
+                }
+
+
+                .country {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+                    margin-top: 10px;
+
+                    img {
+                        height: 100%;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            button {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                border-radius: 8px;
+                padding: 12px 32px;
+                background: transparent;
+                border: 2px solid #F5841F;
+                text-align: center;
+                margin: auto;
+                
+                a {
+                    color: #F5841F;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
