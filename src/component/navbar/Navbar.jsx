@@ -24,7 +24,7 @@ export default function Navbar() {
         <NavLink to="/newsPaper">Colleges</NavLink>
         <NavLink to="/donate">Study Abroad</NavLink>
         <NavLink to="/donate">Notice Board</NavLink>
-        <NavLink to="/donate">Blog</NavLink>
+        <NavLink to="/career">Career</NavLink>
         <button
           className="nav-btn nav-close-btn"
           onClick={showNavbar}>
