@@ -1,0 +1,130 @@
+.whyWork {
+    width: 100%;
+    background-color: #F5841F;
+    padding: 30px;
+    margin-bottom: 120px;
+
+    .container {
+        width: 77%;
+        margin: auto;
+        text-align: center;
+
+        .work-title {
+            font-size: 2em;
+            color: #242424;
+            font-weight: 700;
+        }
+
+        .reason-containers {
+
+            display: flex;
+            align-items: center;
+  
+            gap: 20px;
+  
+
+            .reason-container {
+                background-color: #1F4282;
+                color: #fff;
+                padding: 20px;
+                margin-top: 40px;
+
+                .reason-head {
+                    font-size: 18px;
+                    font-weight: 700;
+                    margin: 15px 0;
+                }
+
+                .para {
+                    font-size: 14px;
+                    line-height: 30px;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 480px) {
+    .whyWork {
+        width: 100%;
+        background-color: #F5841F;
+        padding: 30px;
+        margin-bottom: 120px;
+    
+        .container {
+            width: 100%;
+            margin: auto;
+            text-align: center;
+
+    
+            .reason-containers {
+    
+             
+      
+                flex-direction: column;
+                gap: 20px;
+      
+    
+              
+            }
+        }
+    }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .whyWork {
+        width: 100%;
+        background-color: #F5841F;
+        padding: 30px;
+        margin-bottom: 120px;
+    
+        .container {
+            width: 100%;
+            margin: auto;
+            text-align: center;
+
+    
+            .reason-containers {
+    
+             
+      
+                flex-direction: column;
+                gap: 20px;
+      
+    
+              
+            }
+        }
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1050px) {
+    .whyWork {
+        width: 100%;
+        background-color: #F5841F;
+        padding: 30px;
+        margin-bottom: 120px;
+    
+        .container {
+            width: 100%;
+            margin: auto;
+            text-align: center;
+
+    
+            .reason-containers {
+    
+             
+      
+                flex-direction: column;
+                gap: 20px;
+      
+    
+              
+            }
+        }
+    }
+}

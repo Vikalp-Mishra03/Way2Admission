@@ -1,0 +1,195 @@
+.careerMain {
+    width: 100%;
+
+    .img {
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+
+        .childern {
+            position: absolute;
+            top: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            gap: 20px;
+
+            .main-text {
+                width: 36%;
+
+                .main {
+                    font-size: 40px;
+                    font-weight: 700;
+                    margin-bottom: 30px;
+
+                }
+
+                .para {
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 32px;
+                    color: #666;
+                }
+            }
+
+            .children-img {
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 480px) {
+    .careerMain {
+        width: 100%;
+
+        .img {
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+
+            .childern {
+
+                width: 100%;
+                gap: 20px;
+                flex-direction: column;
+
+                .main-text {
+                    width: 100%;
+
+                    .main {
+                        font-size: 30px;
+                        text-align: center;
+                        font-weight: 700;
+                        margin-bottom: 30px;
+
+                    }
+
+                    .para {
+                        font-weight: 500;
+                        font-size: 17px;
+                        text-align: center;
+                        line-height: 32px;
+                        color: #666;
+                    }
+                }
+
+                .children-img {
+                    padding: 20px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .careerMain {
+        width: 100%;
+
+        .img {
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+
+            .childern {
+
+                width: 100%;
+                gap: 20px;
+                flex-direction: column;
+
+                .main-text {
+                    width: 100%;
+
+                    .main {
+                        font-size: 30px;
+                        text-align: center;
+                        font-weight: 700;
+                        margin-bottom: 30px;
+
+                    }
+
+                    .para {
+                        font-weight: 500;
+                        font-size: 17px;
+                        text-align: center;
+                        line-height: 32px;
+                        color: #666;
+                    }
+                }
+
+                .children-img {
+padding: 20px;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1050px) {
+    .careerMain {
+        width: 100%;
+
+        .img {
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+
+            .childern {
+
+                width: 100%;
+                gap: 20px;
+                flex-direction: column;
+
+                .main-text {
+                    width: 100%;
+
+                    .main {
+                        font-size: 30px;
+                        text-align: center;
+                        font-weight: 700;
+                        margin-bottom: 30px;
+
+                    }
+
+                    .para {
+                        font-weight: 500;
+                        font-size: 17px;
+                        text-align: center;
+                        line-height: 32px;
+                        color: #666;
+                    }
+                }
+
+                .children-img {
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

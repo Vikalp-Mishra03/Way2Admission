@@ -33,6 +33,14 @@
 @import './expert/meetExpert.scss';
 @import './expert/smallBanner.scss';
 @import './expert/forApp.scss';
+@import './policy/termAndCondition.scss';
+@import './policy/privacyPolicy.scss';
+@import './career/careerMain.scss';
+@import './career/joinOurTeam.scss';
+@import './career/life.scss';
+@import './career/whyWork.scss';
+@import './contact/contact.scss';
+@import './responsible/responsible.scss';
 
 
 * {
@@ -44,7 +52,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    overflow-x: hidden;
+    overflow-x: hidden; scroll-behavior: smooth;
 }
 
 
@@ -144,6 +152,10 @@ body {
     line-height: 150%;
     font-weight: 600;
     margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
 }
 
 .heading {
