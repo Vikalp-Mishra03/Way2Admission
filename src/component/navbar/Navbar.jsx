@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import logo from '../../assets/images/image 1.png'
 import { NavLink } from 'react-router-dom'
 export default function Navbar() {
@@ -11,6 +11,28 @@ export default function Navbar() {
     );
   };
 
+
+  const [showCollege, setShowCollege] = useState(false);
+  const collegeRef = useRef(null);
+
+  const toggleForm = () => {
+    setShowCollege(!showCollege);
+  };
+
+  const handleClickOutside = (event) => {
+    if (collegeRef.current && !collegeRef.current.contains(event.target)) {
+      setShowCollege(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener('mousedown', handleClickOutside);
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [])
+
   return (
 
     <header>
@@ -21,9 +43,26 @@ export default function Navbar() {
         <NavLink to="/about">About Us</NavLink>
         <NavLink to='/expert'>Our Expert</NavLink>
         <NavLink to="/services">Our Services</NavLink>
-        <NavLink to="/newsPaper">Colleges</NavLink>
-        <NavLink to="/donate">Study Abroad</NavLink>
-        <NavLink to="/donate">Notice Board</NavLink>
+        <div className='colleges'>
+          <button
+            onClick={toggleForm} className="name">
+            Colleges
+          </button>
+
+          {showCollege && (
+            <div className="college-list" ref={collegeRef}>
+              <ul>
+                <li><NavLink to='acharya'>Acharya Narendra Dev college</NavLink></li>
+                <li><NavLink to='aditiMahavidyalaya'>Aditi Mahavidyalaya</NavLink></li>
+                <li><NavLink to='art'>College of Art</NavLink></li>
+              </ul>
+            </div>
+          )}
+        </div>
+
+
+        <NavLink to="/study">Study Abroad</NavLink>
+        <NavLink to="/notice">Notice Board</NavLink>
         <NavLink to="/career">Career</NavLink>
         <button
           className="nav-btn nav-close-btn"
