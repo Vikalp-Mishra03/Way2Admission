@@ -1,8 +1,10 @@
 .whyWork {
     width: 100%;
-    background-color: #F5841F;
+    // background-color: #ffd4ae;
+    background: radial-gradient(circle, rgb(255, 192, 175) 0%, rgb(255, 153, 0) 100%);
     padding: 30px;
     margin-bottom: 120px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) inset;
 
     .container {
         width: 77%;
@@ -11,63 +13,79 @@
 
         .work-title {
             font-size: 2em;
-            color: #242424;
+            color: #fff;
             font-weight: 700;
+            text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
         }
 
         .reason-containers {
 
             display: flex;
             align-items: center;
-  
+
             gap: 20px;
-  
+
 
             .reason-container {
                 background-color: #1F4282;
                 color: #fff;
                 padding: 20px;
                 margin-top: 40px;
+                // box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75) ;
+                box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75) inset;
+                border: 2px solid #fff;
+                transition: all 0.5s;
 
+                // animation: upupdowndown 0.7s infinite linear alternate;
                 .reason-head {
                     font-size: 18px;
                     font-weight: 700;
                     margin: 15px 0;
+                    text-shadow: 3px 3px 6px rgba(0,0,0,0.68);
                 }
 
                 .para {
                     font-size: 14px;
                     line-height: 30px;
                     margin-bottom: 40px;
+                    text-shadow: 3px 3px 6px rgba(0,0,0,0.68);
+                }
+
+                &:hover {
+                    transform: translateY(-10px);
                 }
             }
         }
     }
 }
 
-
+// @keyframes upupdowndown{
+//     to{
+//         transform: translateY(-10px);
+//     }
+// }
 @media (max-width: 480px) {
     .whyWork {
         width: 100%;
         background-color: #F5841F;
         padding: 30px;
         margin-bottom: 120px;
-    
+
         .container {
             width: 100%;
             margin: auto;
             text-align: center;
 
-    
+
             .reason-containers {
-    
-             
-      
+
+
+
                 flex-direction: column;
                 gap: 20px;
-      
-    
-              
+
+
+
             }
         }
     }
@@ -80,22 +98,22 @@
         background-color: #F5841F;
         padding: 30px;
         margin-bottom: 120px;
-    
+
         .container {
             width: 100%;
             margin: auto;
             text-align: center;
 
-    
+
             .reason-containers {
-    
-             
-      
+
+
+
                 flex-direction: column;
                 gap: 20px;
-      
-    
-              
+
+
+
             }
         }
     }
@@ -108,22 +126,22 @@
         background-color: #F5841F;
         padding: 30px;
         margin-bottom: 120px;
-    
+
         .container {
             width: 100%;
             margin: auto;
             text-align: center;
 
-    
+
             .reason-containers {
-    
-             
-      
+
+
+
                 flex-direction: column;
                 gap: 20px;
-      
-    
-              
+
+
+
             }
         }
     }
