@@ -13,6 +13,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy'
 import Career from './pages/Career'
 import ContactUs from './pages/ContactUs'
 import ResponsibleDisclosurePolicy from './pages/ResponsibleDisclosurePolicy'
+import Colleges from './pages/Colleges'
 
 export default function App() {
   return (
@@ -28,8 +29,9 @@ export default function App() {
         <Route path='/termsAndCondition' element={<Termsandcondition />} />
         <Route path='/privacyPolicy' element={<PrivacyPolicy />} />
         <Route path='/career' element={<Career />} />
+        <Route path='/colleges' element={<Colleges />} />
         <Route path='/contact' element={<ContactUs />} />
-        <Route path='/responsible' element={<ResponsibleDisclosurePolicy/>} />
+        <Route path='/responsible' element={<ResponsibleDisclosurePolicy />} />
       </Routes>
       <Footer />
     </Router>
