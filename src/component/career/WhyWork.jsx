@@ -1,8 +1,6 @@
 import React from 'react'
 
 export default function WhyWork() {
-
-
     return (
         <div className='whyWork'>
             <div className="container">
