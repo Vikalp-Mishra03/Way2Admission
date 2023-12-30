@@ -1,0 +1,264 @@
+.future {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background: #1e1a38;
+    margin-top: 3%;
+
+    .left-future {
+        width: 50%;
+        padding: 75px;
+
+        .future-heading {
+            font-size: 45px;
+            font-weight: 500;
+            color: #fff;
+
+            text-align: center;
+
+            span {
+                color: #a76cd2;
+            }
+        }
+
+        .future-para {
+            margin-top: 20px;
+            color: #ccc;
+            text-align: center;
+            font-size: 27px;
+            margin-bottom: 50px;
+        }
+
+        .future-bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: 30px;
+            gap: 30px;
+            text-align: center;
+
+            .left {
+                color: #fff;
+
+                .bolds {
+                    font-size: 30px;
+                    font-weight: 700
+                }
+
+                .company {
+                    color: #a76cd2;
+                    font-size: 15px;
+                    text-transform: uppercase;
+                    margin-top: 10px;
+                }
+            }
+
+        }
+    }
+
+    .right-future {
+        width: 50%;
+
+        .img {
+
+            // position: relative;
+            img {
+                width: 100%;
+                filter: grayscale(100%);
+            }
+
+            .background-color {
+                background: #a76cd2;
+                position: absolute;
+                top: 0;
+                height: 65.5vh;
+                width: 100%;
+                opacity: .6;
+            }
+        }
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .future {
+
+
+        flex-direction: column;
+
+        .left-future {
+            width: 100%;
+            padding: 15px;
+
+            .future-heading {
+                font-size: 27px;
+            }
+
+            .future-para {
+                margin-top: 20px;
+
+                font-size: 16px;
+            }
+
+            .future-bottom {
+
+                gap: 30px;
+                text-align: center;
+
+                .left {
+                    color: #fff;
+
+
+                }
+
+            }
+        }
+
+        .right-future {
+            width: 100%;
+
+            .img {
+
+                // position: relative;
+                img {
+                    width: 100%;
+                    filter: grayscale(100%);
+                }
+
+                .background-color {
+                    background: #a76cd2;
+                    position: absolute;
+                    top: 100%;
+                    height: 65.5vh;
+                    width: 100%;
+                    opacity: .6;
+                }
+            }
+        }
+    }
+
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .future {
+
+
+        flex-direction: column;
+
+        .left-future {
+            width: 65%;
+            padding: 15px;
+
+            .future-heading {
+                font-size: 27px;
+            }
+
+            .future-para {
+                margin-top: 20px;
+
+                font-size: 16px;
+            }
+
+            .future-bottom {
+
+                gap: 30px;
+                text-align: center;
+
+                .left {
+                    color: #fff;
+
+
+                }
+
+            }
+        }
+
+        .right-future {
+            width: 100%;
+
+            .img {
+
+                // position: relative;
+                img {
+                    width: 100%;
+                    filter: grayscale(100%);
+                }
+
+                .background-color {
+                    background: #a76cd2;
+                    position: absolute;
+                    top: 100%;
+                    height: 65.5vh;
+                    width: 100%;
+                    opacity: .6;
+                }
+            }
+        }
+    }
+
+
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .future {
+
+
+        flex-direction: column;
+
+        .left-future {
+            width: 65%;
+            padding: 15px;
+
+            .future-heading {
+                font-size: 27px;
+            }
+
+            .future-para {
+                margin-top: 20px;
+
+                font-size: 16px;
+            }
+
+            .future-bottom {
+
+                gap: 30px;
+                text-align: center;
+
+                .left {
+                    color: #fff;
+
+
+                }
+
+            }
+        }
+
+        .right-future {
+            width: 100%;
+
+            .img {
+
+                // position: relative;
+                img {
+                    width: 100%;
+                    filter: grayscale(100%);
+                }
+
+                .background-color {
+                    background: #a76cd2;
+                    position: absolute;
+                    top: 100%;
+                    height: 65.5vh;
+                    width: 100%;
+                    opacity: .6;
+                }
+            }
+        }
+    }
+}
