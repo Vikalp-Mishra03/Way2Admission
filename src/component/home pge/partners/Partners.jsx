@@ -1,13 +1,13 @@
 import React from 'react'
-import left from '../../../assets/images/image 32.png'
-import img1 from '../../../assets/images/image 24.png'
-import img2 from '../../../assets/images/image 25.png'
-import img3 from '../../../assets/images/image 26.png'
-import img4 from '../../../assets/images/image 27.png'
-import img5 from '../../../assets/images/image 28.png'
-import img6 from '../../../assets/images/image 29.png'
-import img7 from '../../../assets/images/image 30.png'
-import img8 from '../../../assets/images/image 31.png'
+import left from '../../../assets/images2/image 32.png'
+import img1 from '../../../assets/images2/image 24.png'
+import img2 from '../../../assets/images2/image 25.png'
+import img3 from '../../../assets/images2/image 26.png'
+import img4 from '../../../assets/images2/image 27.png'
+import img5 from '../../../assets/images2/image 28.png'
+import img6 from '../../../assets/images2/image 29.png'
+import img7 from '../../../assets/images2/image 30.png'
+import img8 from '../../../assets/images2/image 31.png'
 
 export default function Partners() {
     return (

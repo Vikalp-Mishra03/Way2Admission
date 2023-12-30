@@ -1,5 +1,5 @@
 import React from 'react'
-import college from '../../assets/images/aboutusbgweb.png'
+import college from '../../assets/images2/aboutusbgweb.png'
 export default function Enquiry() {
 
     const touchData = [

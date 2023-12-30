@@ -1,6 +1,6 @@
 import React from 'react'
-import banner from '../../../assets/images/Rectangle 6.png'
-import student from '../../../assets/images/pngwing 2.png'
+import banner from '../../../assets/images2/Rectangle 6.png'
+import student from '../../../assets/images2/pngwing 2.png'
 export default function UpperBanner() {
     return (
         <div className='upperBanner'>

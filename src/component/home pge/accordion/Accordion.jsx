@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import img5 from '../../../assets/images/image 5.png'
+import img5 from '../../../assets/images2/image 5.png'
 
 export default function Accordion() {
 

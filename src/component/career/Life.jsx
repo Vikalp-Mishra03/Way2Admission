@@ -1,9 +1,9 @@
 import React from 'react'
-import photo1 from '../../assets/images/photo1.png'
-import photo2 from '../../assets/images/photo2.png'
-import photo3 from '../../assets/images/photo3.png'
-import photo4 from '../../assets/images/photo4.png'
-import photo5 from '../../assets/images/photo5.png'
+import photo1 from '../../assets/images2/photo1.png'
+import photo2 from '../../assets/images2/photo2.png'
+import photo3 from '../../assets/images2/photo3.png'
+import photo4 from '../../assets/images2/photo4.png'
+import photo5 from '../../assets/images2/photo5.png'
 
 export default function Life() {
     return (

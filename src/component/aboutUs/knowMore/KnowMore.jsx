@@ -1,7 +1,7 @@
 import React from 'react'
-import more1 from '../../../assets/images/more1.jpeg'
-import more2 from '../../../assets/images/more2.png'
-import more3 from '../../../assets/images/more3.png'
+import more1 from '../../../assets/images2/more1.jpeg'
+import more2 from '../../../assets/images2/more2.png'
+import more3 from '../../../assets/images2/more3.png'
 
 export default function KnowMore() {
 

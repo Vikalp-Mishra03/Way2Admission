@@ -1,10 +1,10 @@
 import React from 'react'
-import tick from '../../../assets/images/image 16.png'
-import man from '../../../assets/images/image 13.png'
-import girl from '../../../assets/images/image 14.png'
-import dot from '../../../assets/images/image 12.png'
-import dot1 from '../../../assets/images/image 11.png'
-import angle from '../../../assets/images/image 9.png'
+import tick from '../../../assets/images2/image 16.png'
+import man from '../../../assets/images2/image 13.png'
+import girl from '../../../assets/images2/image 14.png'
+import dot from '../../../assets/images2/image 12.png'
+import dot1 from '../../../assets/images2/image 11.png'
+import angle from '../../../assets/images2/image 9.png'
 export default function About1() {
     return (
         <div className=' about1 mt-5'>

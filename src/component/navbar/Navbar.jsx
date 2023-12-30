@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import logo from '../../assets/images/image 1.png'
+import logo from '../../assets/images2/image 1.png'
 import { NavLink } from 'react-router-dom'
 export default function Navbar() {
 
@@ -62,7 +62,7 @@ export default function Navbar() {
 
 
         <NavLink to="/study">Study Abroad</NavLink>
-        <NavLink to="/notice">Notice Board</NavLink>
+        <NavLink to="/blog">Blog</NavLink>
         <NavLink to="/career">Career</NavLink>
         <button
           className="nav-btn nav-close-btn"

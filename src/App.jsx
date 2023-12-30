@@ -14,6 +14,7 @@ import Career from './pages/Career'
 import ContactUs from './pages/ContactUs'
 import ResponsibleDisclosurePolicy from './pages/ResponsibleDisclosurePolicy'
 import Colleges from './pages/Colleges'
+import Blog  from './pages/Blog'
 
 export default function App() {
   return (
@@ -31,9 +32,10 @@ export default function App() {
         <Route path='/career' element={<Career />} />
         <Route path='/colleges' element={<Colleges />} />
         <Route path='/contact' element={<ContactUs />} />
+        <Route path='/blog' element={<Blog/>} />
         <Route path='/responsible' element={<ResponsibleDisclosurePolicy />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   )
 }

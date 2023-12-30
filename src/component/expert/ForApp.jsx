@@ -1,7 +1,7 @@
 import React from 'react'
-import android from '../../assets/images/PlayStore.png'
+import android from '../../assets/images2/PlayStore.png'
 import iphone from '../../assets/images/AppStore.png'
-import screen from '../../assets/images/screen.png'
+import screen from '../../assets/images2/screen.png'
 
 export default function ForApp() {
     return (

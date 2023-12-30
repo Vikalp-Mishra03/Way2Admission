@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
-import right from '../../../assets/images/image 6.png'
-import left from '../../../assets/images/image 7.png'
-import college from '../../../assets/images/Rectangle 42.png'
+import right from '../../../assets/images2/image 6.png'
+import left from '../../../assets/images2/image 7.png'
+import college from '../../../assets/images2/Rectangle 42.png'
 
 
 

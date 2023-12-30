@@ -1,5 +1,5 @@
 import React from 'react'
-import boy from '../../../assets/images/image 13.png'
+import boy from '../../../assets/images2/image 13.png'
 export default function OurStories() {
     return (
         <div className='ourStories'>

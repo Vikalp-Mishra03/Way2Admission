@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
-import rectangle from '../../../assets/images/Rectangle 49.png'
-import circle from '../../../assets/images/image 21.png'
+import rectangle from '../../../assets/images2/Rectangle 49.png'
+import circle from '../../../assets/images2/image 21.png'
 
 const ReadMore = ({ children }) => {
     const text = children;

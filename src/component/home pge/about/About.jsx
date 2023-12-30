@@ -1,6 +1,6 @@
 import React from 'react'
-import tick from '../../../assets/images/image 16.png'
-import image from '../../../assets/images/image 36.png'
+import tick from '../../../assets/images2/image 16.png'
+import image from '../../../assets/images2/image 36.png'
 export default function About() {
     return (
         <div className='about'>

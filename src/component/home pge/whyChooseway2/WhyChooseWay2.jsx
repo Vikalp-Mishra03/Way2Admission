@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import card1 from '../../../assets/images/1 (2).png'
 import card2 from '../../../assets/images/1 (3).png'
 import card3 from '../../../assets/images/1 (1).png'
-import left from '../../../assets/images/image 4.png'
-import right from '../../../assets/images/image 3.png'
+import left from '../../../assets/images2/image 4.png'
+import right from '../../../assets/images2/image 3.png'
 
 const ReadMore = ({ children }) => {
     const text = children;

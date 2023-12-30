@@ -1,5 +1,5 @@
 import React from 'react'
-import icon from '../../../assets/images/image 37.png'
+import icon from '../../../assets/images2/image 37.png'
 export default function Cards() {
 
     const cardData = [

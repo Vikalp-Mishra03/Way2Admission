@@ -1,10 +1,10 @@
 import React from 'react'
-import logo1 from '../../../assets/images/image 25.png'
-import logo2 from '../../../assets/images/image 26.png'
-import logo3 from '../../../assets/images/image 27.png'
-import logo4 from '../../../assets/images/image 28.png'
-import logo5 from '../../../assets/images/image 29.png'
-import logo6 from '../../../assets/images/image 30.png'
+import logo1 from '../../../assets/images2/image 25.png'
+import logo2 from '../../../assets/images2/image 26.png'
+import logo3 from '../../../assets/images2/image 27.png'
+import logo4 from '../../../assets/images2/image 28.png'
+import logo5 from '../../../assets/images2/image 29.png'
+import logo6 from '../../../assets/images2/image 30.png'
 import trophy from '../../../assets/images/displayleveragelive.svg'
 export default function OurOffering() {
 

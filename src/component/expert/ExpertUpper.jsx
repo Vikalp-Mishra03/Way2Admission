@@ -1,6 +1,6 @@
 import React from 'react'
-import banner from '../../assets/images/bannerBg2x.jpg'
-import coach from '../../assets/images/coachDesktop22x.png'
+import banner from '../../assets/images2/bannerBg2x.jpg'
+import coach from '../../assets/images2/coachDesktop22x.png'
 
 export default function ExpertUpper() {
     return (

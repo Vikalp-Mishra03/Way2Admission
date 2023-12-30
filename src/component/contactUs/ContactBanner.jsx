@@ -1,5 +1,5 @@
 import React from 'react'
-import contact from '../../assets/images/aboutusbgweb.png'
+import contact from '../../assets/images2/aboutusbgweb.png'
 export default function ContactBanner() {
     return (
         <div className='contactBanner'>

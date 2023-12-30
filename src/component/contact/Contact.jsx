@@ -1,6 +1,6 @@
 import React from 'react'
-import call from '../../assets/images/image 34.png'
-import mail from '../../assets/images/image 33.png'
+import call from '../../assets/images2/image 34.png'
+import mail from '../../assets/images2/image 33.png'
 export default function Contact() {
     return (
         <div className='contact'>

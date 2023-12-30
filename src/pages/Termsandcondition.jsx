@@ -1,5 +1,5 @@
 import React from 'react'
-import term from '../assets/images/termsAndConditions.png'
+import term from '../assets/images2/termsAndConditions.png'
 export default function Termsandcondition() {
     return (
         <div className="termandCondition">

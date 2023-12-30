@@ -1,9 +1,9 @@
 import React from 'react'
-import img1 from '../../assets/images/icons8-kolkata-100 1 (1).png'
-import img2 from '../../assets/images/icons8-kolkata-100 1 (3).png'
-import img3 from '../../assets/images/icons8-kolkata-100 1 (4).png'
-import img4 from '../../assets/images/icons8-kolkata-100 1.png'
-import logo from '../../assets/images/logo.png'
+import img1 from '../../assets/images2/icons8-kolkata-100 1 (1).png'
+import img2 from '../../assets/images2/icons8-kolkata-100 1 (3).png'
+import img3 from '../../assets/images2/icons8-kolkata-100 1 (4).png'
+import img4 from '../../assets/images2/icons8-kolkata-100 1.png'
+import logo from '../../assets/images2/logo.png'
 import { NavLink } from 'react-router-dom'
 export default function Footer() {
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import policy from '../assets/images/privacyPolicy.png'
+import policy from '../assets/images2/privacyPolicy.png'
 
 export default function PrivacyPolicy() {
     return (

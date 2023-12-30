@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import card1 from '../../../assets/images/woman playing laptop on_5315939 1 (1).png'
-import card2 from '../../../assets/images/woman playing laptop on_5315939 1 (2).png'
-import card3 from '../../../assets/images/woman playing laptop on_5315939 1.png'
+import card1 from '../../../assets/images2/woman playing laptop on_5315939 1 (1).png'
+import card2 from '../../../assets/images2/woman playing laptop on_5315939 1 (2).png'
+import card3 from '../../../assets/images2/woman playing laptop on_5315939 1.png'
 
 
 const ReadMore = ({ children }) => {

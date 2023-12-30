@@ -1,7 +1,7 @@
 import React from 'react'
-import content from '../../assets/images/Content.png'
-import engineer from '../../assets/images/Engineering.png'
-import Sales from '../../assets/images/Sales.png'
+import content from '../../assets/images2/Content.png'
+import engineer from '../../assets/images2/Engineering.png'
+import Sales from '../../assets/images2/Sales.png'
 import PostEnrolmentTeam from '../../assets/images/PostEnrolmentTeam.png'
 
 export default function JoinOurTeam() {

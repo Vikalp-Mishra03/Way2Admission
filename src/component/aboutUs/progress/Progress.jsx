@@ -1,8 +1,8 @@
 import React from 'react'
-import college from '../../../assets/images/image 42.png'
-import student from '../../../assets/images/image 30.png'
-import couselling from '../../../assets/images/image 41.png'
-import user from '../../../assets/images/image 40.png'
+import college from '../../../assets/images2/image 42.png'
+import student from '../../../assets/images2/image 30.png'
+import couselling from '../../../assets/images2/image 41.png'
+import user from '../../../assets/images2/image 40.png'
 
 export default function Progress() {
 
