@@ -35,7 +35,7 @@ export default function App() {
         <Route path='/blog' element={<Blog/>} />
         <Route path='/responsible' element={<ResponsibleDisclosurePolicy />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   )
 }
