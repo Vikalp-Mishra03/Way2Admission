@@ -10,7 +10,7 @@ export default function JoinOurTeam() {
         {
             img: content,
             job_title: 'Content Writer',
-            position: 'Junior',
+            position: 'Junior/Mid',
             place: 'Noida',
             time: 'Full Time'
         },

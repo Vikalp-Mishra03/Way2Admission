@@ -1,5 +1,5 @@
 import React from 'react'
-import bcimg from '../../../assets/images2/Rectangle54.png'
+import bcimg from '../../../assets/images/Rectangle 54.png'
 import img1 from '../../../assets/images2/image 42.png'
 import img2 from '../../../assets/images2/image 40.png'
 import img3 from '../../../assets/images2/image 41.png'

@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import '../../../assets/sass/carousel/Imagecarousel.scss'
-import img1 from '../../../assets/images2/Rectangle 59.png'
-import img2 from '../../../assets/images2/rectangle1.jpg'
+import img1 from '../../../assets/images/Rectangle 59.png'
+// import img2 from '../../../assets/images2/rectangle1.jpg'
 const Imagecarousel = () => {
 
     const carouselData = [

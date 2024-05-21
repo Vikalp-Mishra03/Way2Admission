@@ -115,6 +115,7 @@
                 font-size: 14px;
                 font-weight: 400;
                 line-height: 22px;
+                padding: 10px;
             }
         }
 
@@ -127,7 +128,7 @@
                     width: 300px;
                     display: flex;
                     overflow-x: scroll;
-                    grid-gap: 205%;
+                    grid-gap: 100%;
 
                     .vide {
                         width: 100%;
@@ -141,16 +142,16 @@
                         .video-thumbnail {
 
                             iframe {
-                                width: 285px;
-                                height: 500px;
+                                width: 180px;
+                                height: 319px;
                                 border-radius: 15px;
                                 border: none;
                                 transition: all 0.5s;
 
                                 &:hover {
-                                    width: 301px;
+                                    width: 200px;
                                     border: 3px solid rgba(245, 132, 31, 0.55);
-                                    height: 525px;
+                                    height: 350px;
                                 }
 
                             }

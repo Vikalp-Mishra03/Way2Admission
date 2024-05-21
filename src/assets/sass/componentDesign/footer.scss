@@ -125,6 +125,7 @@
         background: #1F4282;
         margin-top: 60%;
 
+        
         .place {
 
             position: relative;
@@ -190,6 +191,8 @@
                 justify-content: center;
                 gap: 50px;
                 flex-direction: column;
+
+
             }
 
             .links {
@@ -214,11 +217,7 @@
         .bottom {
 
             .line {
-                // width: 100%;
-                // height: 5px;
-                // background-color: #F5841F;
-                // position: absolute;
-                // margin-top: -70px;
+
                 display: none;
             }
 
@@ -252,11 +251,8 @@
         margin-top: 135%;
 
         .place {
-
-            margin-top: -100%;
-
+            margin-top: -120%;
             flex-direction: column;
-
 
         }
 
@@ -284,6 +280,17 @@
                 }
             }
 
+            .main-col {
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 50px;
+                flex-direction: column;
+
+
+            }
+
             .links {
                 color: #FFF;
                 font-size: 15px;
@@ -306,11 +313,6 @@
         .bottom {
 
             .line {
-                // width: 100%;
-                // height: 5px;
-                // background-color: #F5841F;
-                // position: absolute;
-                // margin-top: -70px;
                 display: none;
             }
 

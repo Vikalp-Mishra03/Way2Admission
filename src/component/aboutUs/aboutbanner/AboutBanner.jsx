@@ -7,7 +7,7 @@ export default function AboutBanner() {
             <div className="banner">
                 <img src={banner} alt="" />
 
-                <div className="banner-text">
+                <div className="about-text">
                     <h1>ABOUT US</h1>
                     <span>Lorem Ipsum is dummy text of the printing and typesetting industry, derived from a Latin passage by Cicero. Learn about its history, usage, variations and sources, and how to generate </span>
                     <br />

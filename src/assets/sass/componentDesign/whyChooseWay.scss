@@ -93,7 +93,7 @@
 
 
         p {
-            width: 100%;
+            width: 95%;
             margin: auto;
             margin-top: 40px;
             color: #000;
@@ -102,23 +102,17 @@
         }
 
         .img-arrow {
-            position: absolute;
-            margin-top: -180px;
+       
 
             img {
-                width: 200px;
-                height: 845px;
+                display: none;
             }
         }
 
         .img-right {
-            position: absolute;
-            margin-top: -180px;
-            right: 0;
 
             img {
-                width: 200px;
-                height: 845px;
+                display: none;
             }
         }
 

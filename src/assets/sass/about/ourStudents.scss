@@ -1,7 +1,8 @@
 .ourStudents {
     width: 100%;
     margin-top: 30px;
-margin-bottom: 120px;
+    margin-bottom: 120px;
+
     .container {
         width: 77%;
         margin: auto;
@@ -62,7 +63,7 @@ margin-bottom: 120px;
             margin: auto;
 
             .student {
-              
+
                 flex-direction: column;
 
                 .left-student {
@@ -72,10 +73,10 @@ margin-bottom: 120px;
                 }
 
                 .right-student {
-                   
+
                     justify-content: center;
 
-                  
+
                 }
             }
         }
@@ -94,7 +95,7 @@ margin-bottom: 120px;
             margin: auto;
 
             .student {
-              
+
                 flex-direction: column;
 
                 .left-student {
@@ -104,10 +105,10 @@ margin-bottom: 120px;
                 }
 
                 .right-student {
-                   
+
                     justify-content: center;
 
-                  
+
                 }
             }
         }
@@ -125,7 +126,7 @@ margin-bottom: 120px;
             margin: auto;
 
             .student {
-              
+
                 flex-direction: column;
 
                 .left-student {
@@ -135,10 +136,10 @@ margin-bottom: 120px;
                 }
 
                 .right-student {
-                   
+
                     justify-content: center;
 
-                  
+
                 }
             }
         }

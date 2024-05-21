@@ -14,7 +14,8 @@ import Career from './pages/Career'
 import ContactUs from './pages/ContactUs'
 import ResponsibleDisclosurePolicy from './pages/ResponsibleDisclosurePolicy'
 import Colleges from './pages/Colleges'
-import Blog  from './pages/Blog'
+import Blog from './pages/Blog'
+import BlogTitle from './pages/BlogTitle'
 
 export default function App() {
   return (
@@ -32,8 +33,9 @@ export default function App() {
         <Route path='/career' element={<Career />} />
         <Route path='/colleges' element={<Colleges />} />
         <Route path='/contact' element={<ContactUs />} />
-        <Route path='/blog' element={<Blog/>} />
+        <Route path='/blog' element={<Blog />} />
         <Route path='/responsible' element={<ResponsibleDisclosurePolicy />} />
+        <Route path='/blogTitle' element={<BlogTitle />} />
       </Routes>
       <Footer />
     </Router>

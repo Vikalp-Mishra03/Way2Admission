@@ -12,8 +12,8 @@
         .carousel-item {
 
             img {
-                width: 1500px;
-                height: 100vh;
+                width: 100vw;
+                height: 75vh;
                 padding: 0 10px;
             }
 
@@ -21,18 +21,18 @@
 
         .text {
             position: absolute;
-            top: 300px;
+            top: 145px;
             left: 200px;
             width: 41%;
 
             .small {
                 font-size: 15px;
                 font-weight: 700;
-                color: #1F4282;
+                color: #6b97e8;
             }
 
             h3 {
-                color: #1F4282;
+                color: #6b97e8;;
                 font-size: 52px;
                 font-weight: 800;
             }
@@ -105,10 +105,9 @@
             }
 
             .text {
-                top: 30px;
+                top: 50px;
                 left: 45px;
-                width: 70vw;
-
+                width: 60vw;
                 .small {
                     font-size: 10px;
 
@@ -119,7 +118,7 @@
                 }
 
                 p {
-                    font-size: 11px;
+                    display: none;
                 }
             }
         }

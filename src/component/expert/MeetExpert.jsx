@@ -38,7 +38,7 @@ export default function MeetExpert() {
       img: ayush,
       fullName: 'Ayush Rajesh',
       number: '5000+ students counselled',
-      flag: UK,
+      flag: India,
     },
     {
       img: khushboo,
@@ -57,13 +57,13 @@ export default function MeetExpert() {
       img: rohan,
       fullName: 'Roshan Jha',
       number: '7,000+ students counselled',
-      flag: US,
+      flag: India,
     },
     {
       img: mayank,
       fullName: 'Mayank Rawat',
       number: '5,000+ students counselled',
-      flag: UK,
+      flag: Canada,
     },
     {
       img: naina,

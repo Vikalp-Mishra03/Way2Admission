@@ -34,6 +34,7 @@ export default function Stories() {
                                     controls={false}
                                   
                                 ></iframe>
+
                             </div>
                             <div className="video-thumbnail">
                                 <iframe src={video1}
@@ -42,7 +43,7 @@ export default function Stories() {
                                     className="vid"
                                     loop
                                     controls
-                                 
+
 
                                 ></iframe>
                             </div>

@@ -1,0 +1,224 @@
+.blogtitle {
+    .blog-banner {
+        width: 100%;
+        position: relative;
+        margin-bottom: 50px;
+
+        .blog-banner-img {
+
+            position: relative;
+
+            .gradient {
+                width: 58.6875%;
+                height: 99%;
+                top: 0;
+                background: linear-gradient(97deg, rgba(0, 0, 0, 0.58) 46.96%, rgba(31, 66, 130, 0.04) 102.76%);
+                position: absolute;
+            }
+
+            img {
+                width: 100vw;
+            }
+
+        }
+
+        .blog-text {
+            position: absolute;
+            top: 30%;
+            left: 10%;
+
+            .blog-heading {
+                color: #fff;
+                font-size: 3.25rem;
+                font-weight: 800;
+            }
+
+            .blog-para {
+                color: #FEFEFE;
+                width: 50.625%;
+                font-size: 1.125rem;
+                font-weight: 400;
+                line-height: 1.6875rem;
+            }
+
+            .small-card {
+                position: absolute;
+                width: 50%;
+                height: 60px;
+                border-radius: 2rem;
+                border: 1px solid rgba(255, 123, 5, 0.73);
+                background: #FFF;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: 35px;
+
+                .date {
+                    font-size: 0.9375rem;
+                    font-weight: 400;
+                }
+
+                .name {
+                    font-size: 0.9375rem;
+                    font-weight: 400;
+                }
+
+                a {
+                    button {
+                        width: 4.80263rem;
+                        height: 2.21244rem;
+                        border-radius: 2rem;
+                        border: 1px solid rgba(255, 123, 5, 0.73);
+                        background: #FFF0E4;
+                        font-size: 0.9375rem;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+
+    .blog-info {
+        display: flex;
+        // align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+        gap: 100px;
+
+        .blog-left {
+            width: 60%;
+
+            .question {
+                font-size: 1.5625rem;
+                font-weight: 700;
+                line-height: 2.0625rem;
+            }
+
+            .answer {
+                font-size: 0.9375rem;
+                font-weight: 400;
+                line-height: 1.875rem;
+                letter-spacing: 0.02813rem;
+                margin-bottom: 30px;
+
+            }
+
+            .answer-img {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .blog-right {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+
+            .profile-card {
+                padding: 20px;
+                border-radius: 1.5625rem;
+                border: 1px solid #F5841F;
+                background: #FFF;
+                width: 85%;
+
+                .profile {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+
+                    .profile-img {
+                        img {
+                            width: 7rem;
+                            height: 7rem;
+                            border-radius: 3.5rem;
+                            border: 1px solid rgba(255, 123, 5, 0.73);
+
+                        }
+                    }
+
+                    .profile-name {
+
+                        .first-name {
+                            font-size: 1.9375rem;
+                            font-weight: 700;
+                        }
+
+                        .expert {
+                            font-size: 0.9375rem;
+                            font-weight: 400;
+                        }
+                    }
+
+                }
+
+                .profile-about {
+                    font-size: 0.75rem;
+                    margin-top: 20px;
+                    font-weight: 400;
+                    line-height: 1.75rem;
+                }
+
+                .profile-course-info {
+                    border-radius: 2rem;
+                    border: 1px solid rgba(255, 123, 5, 0.73);
+                    padding: 20px;
+                    background: #FFF;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    a {
+                        button {
+                            border-radius: 2rem;
+                            border: 1px solid rgba(255, 123, 5, 0.73);
+                            width: 4.80263rem;
+                            height: 2.21244rem;
+                            font-size: 0.9375rem;
+                            font-weight: 700;
+                            background: #FFF0E4;
+                        }
+                    }
+                }
+            }
+
+            .blog-profile {
+                border-radius: 1.5625rem;
+                border: 1px solid #F5841F;
+                background: #F5841F;
+                width: 85%;
+                // height: 29.375rem;
+                display: flex;
+                align-items: end;
+                justify-content: end;
+                margin-top: 30px;
+
+                img {
+                    width: 17.625rem;
+                    height: 23.9375rem;
+                }
+            }
+
+            .buttons {
+                margin: 30px 0;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                a {
+                    button {
+                        border-radius: 0.3125rem;
+                        border: 1px solid rgba(255, 123, 5, 0.73);
+                        width: 10.75rem;
+                        height: 2.1875rem;
+                        background: #FFF0E4;
+                    }
+                }
+            }
+        }
+    }
+}

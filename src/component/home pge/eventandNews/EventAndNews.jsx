@@ -79,7 +79,7 @@ export default function EventAndNews() {
             <div className="heading">EVENTS & NEWS</div>
 
 
-            <img src={circle} className='circle' alt="" />
+           
             <div className="event-card" ref={scrollContainerRef} onWheel={handleScroll}>
                 {eventData.map((event, index) => (
                     <div className="event" key={index}>

@@ -7,9 +7,12 @@ export default function ExpertUpper() {
         <div className='expertUpper'>
             <div className="container">
                 <div className="img">
+
                     <img src={banner} className='banner' alt="" />
                     <div className="coach-img">
-                        <img src={coach} className='coach' alt="" />
+                        <div className="coach-image">
+                            <img src={coach} alt="" />
+                        </div>
                     </div>
                 </div>
 
